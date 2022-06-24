@@ -28,6 +28,6 @@ public class Deslogueo extends HttpServlet {
 		
 		session.invalidate(); //invalidar la sesion
 		
-		request.getRequestDispatcher("index.jsp").forward(request, response); //redirigir hacia una pagina principal
+		request.getRequestDispatcher("login.jsp").forward(request, response); //redirigir hacia una pagina principal
 	}
 }

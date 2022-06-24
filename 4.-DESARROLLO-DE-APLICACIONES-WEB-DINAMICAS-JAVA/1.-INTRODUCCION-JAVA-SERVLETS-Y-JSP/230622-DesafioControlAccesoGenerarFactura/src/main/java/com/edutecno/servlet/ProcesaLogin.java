@@ -40,7 +40,7 @@ public class ProcesaLogin extends HttpServlet {
 			//ejecutando una alerta mediante un script si los datos ingresados son erroneos
 			out.println("<script type=\"text/javascript\">");
 			out.println("alert('usuario o password incorrectos');");
-			out.println("location='index.jsp';");
+			out.println("location='login.jsp';");
 			out.println("</script>");
 		} else {//si no, si los parametros ingresados en el input son correctos
 			
@@ -67,7 +67,7 @@ public class ProcesaLogin extends HttpServlet {
 			response.addCookie(cookie); //se agrega la cookie en el response y luego se puede obtener en otros servlet o vistas
 			
 			//se despachan los datos necesarios en el request y se redirige hacia una vista o servlet sea el caso
-			request.getRequestDispatcher("areaPrivada.jsp").forward(request, response);
+			request.getRequestDispatcher("ingresoValores.jsp").forward(request, response);
 		}
 	}
 }
