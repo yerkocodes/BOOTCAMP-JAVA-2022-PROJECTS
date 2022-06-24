@@ -29,29 +29,29 @@
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <label for="exampleFormControlInput1">Nombre Completo</label>
-                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre Apellido"
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre Apellido" value="Yerko"
                         required>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <label for="exampleFormControlInput1">Empresa</label> 
-                    <input type="text" class="form-control" id="empresa" name="empresa" required placeholder="Nombre Empresa">
+                    <input type="text" class="form-control" id="empresa" name="empresa" required placeholder="Nombre Empresa" value="Edutecno">
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <label for="exampleFormControlInput1">Rut</label> 
-                    <input type="text" class="form-control" id="rut" name="rut" required placeholder="27001001-1">
+                    <input type="text" class="form-control" id="rut" name="rut" required placeholder="27001001-1" value="123-4">
                 </div>
 
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <label for="Direccion">Direccion</label>
-                    <input type="text" class="form-control" id="direccion" required name="direccion" placeholder="Direccion">
+                    <input type="text" class="form-control" id="direccion" required name="direccion" placeholder="Direccion" value="Av JAVA #123321">
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <label for="exampleFormControlInput1">Ciudad</label> 
-                    <input type="text" class="form-control" id="ciudad" name="ciudad" required placeholder="Ciudad">
+                    <input type="text" class="form-control" id="ciudad" name="ciudad" required placeholder="Ciudad" value="Santiago">
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <label for="exampleFormControlInput1">Pais</label> 
-                    <input type="text" class="form-control" id="pais" name="pais" required placeholder="Pais">
+                    <input type="text" class="form-control" id="pais" name="pais" required placeholder="Pais" value="Chile">
                 </div>
             </div>
 
@@ -73,7 +73,7 @@
                         <td>$120.000</td>
                         <td>
                             <input class="form-control form-control-sm" type="number" name="valvulas" id="valvulas"
-                                placeholder="cantidad" value="0" required>
+                                placeholder="cantidad" value="3" required>
                         </td>
                     </tr>
                     <tr>
@@ -83,7 +83,7 @@
                         <td>$1.700.000</td>
                         <td>
                             <input class="form-control form-control-sm" type="number" name="turbo" id="turbo"
-                                placeholder="cantidad" value="0" required>
+                                placeholder="cantidad" value="2" required>
                         </td>
                     </tr>
                     <tr>
@@ -93,7 +93,7 @@
                         <td>$760.000</td>
                         <td>
                         	<input class="form-control form-control-sm" type="number" name="frenos" id="frenos"
-                                placeholder="cantidad" value="0" required>
+                                placeholder="cantidad" value="1" required>
                         </td>
                     </tr>
                     <tr>
@@ -103,7 +103,7 @@
                         <td>$2.300.000</td>
                         <td>
                         	<input class="form-control form-control-sm" type="number" name="refri" id="refri"
-                                placeholder="cantidad" value="0" required></td>
+                                placeholder="cantidad" value="2" required></td>
                     </tr>
                     <tr>
                         <th scope="row">5</th>
@@ -112,7 +112,7 @@
                         <td>$10.000</td>
                         <td>
                         <input class="form-control form-control-sm" type="number" name="plumas" id="plumas"
-                                placeholder="cantidad" value="0" required>
+                                placeholder="cantidad" value="2" required>
                         </td>
                     </tr>
                 </tbody>
